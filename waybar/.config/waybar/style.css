@@ -55,6 +55,8 @@ button:hover {
 #memory,
 #disk,
 #network,
+#pulseaudio
+#backlight
 #tray {
     padding: 0 8px;
     color: @white;
@@ -72,6 +74,10 @@ button:hover {
 #battery {
     color: @mag;
     border-bottom: 4px solid @mag;
+}
+#backlight {
+    color: @cyn;
+    border-bottom: 4px solid @cyn;
 }
 
 #disk {
@@ -99,5 +105,8 @@ button:hover {
 }
 
 #tray {
-    background-color: #2980b9;
+}
+#pulseaudio {
+    color: @red;
+    border-bottom: 4px solid @red;
 }
