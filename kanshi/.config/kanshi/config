@@ -1,0 +1,16 @@
+# Profile: Laptop only
+profile laptop-only {
+  output eDP-1 enable
+}
+
+# Profile: External only
+profile external-only {
+  output eDP-1 disable
+  output DP-1 enable mode 3440x1440@60
+}
+
+# Profile: Dual monitors
+profile dual {
+  output eDP-1 enable
+  output DP-1 enable mode 3440x1440@60
+}
