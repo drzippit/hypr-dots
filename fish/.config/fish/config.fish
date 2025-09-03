@@ -11,3 +11,6 @@ alias cd=z
 alias vim=nvim
 alias bt=bluetui
 alias wf=impala
+
+#Set editor to nvim for yazi
+set -gx EDITOR nvim
